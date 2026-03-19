@@ -7,6 +7,7 @@ function App() {
   const [messages, setMessages] = useState(MESSAGES);
 
   return (
+    
     <div className={styles.App}>
       <header className={styles.Header}>
         <img className={styles.Logo} src="/chat-bot.png" />
